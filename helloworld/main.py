@@ -1,9 +1,8 @@
+# printing  world is a tradition in beginners
+# it is normally used to if check everything is okay
 import sys
 
-def main(argv=None):
-    if argv is None:
-        argv = sys.argv
-
-    print "Hello, world"
-
-    return 0
+sys.stdout.write("Hello, ")
+sys.stdout.write("World!")
+sys.stdout.write("\n")
+print("Hello, World!")
